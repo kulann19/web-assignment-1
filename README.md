@@ -42,4 +42,4 @@ navigation bar at the top. No frameworks or libraries are used.
 
 ## Published website
 
-https://USERNAME.github.io/REPOSITORY/
+https://kulann19.github.io/web-assignment-1/
