@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 4 — Table and Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <a class="nav-link" href="../index.html">Home</a>
+      <a class="nav-link" href="../task1/index.html">Task 1</a>
+      <a class="nav-link" href="../task2/index.html">Task 2</a>
+      <a class="nav-link" href="../exercise1/index.html">Task 3</a>
+      <span class="nav-link nav-active">Task 4</span>
+    </div>
+
+    <div class="container">
+      <h1 id="page-heading">Student Grades</h1>
+
+      <table class="grades-table">
+        <tr>
+          <th>Name</th>
+          <th>Subject</th>
+          <th>Grade</th>
+        </tr>
+        <tr>
+          <td rowspan="2">Kulan Alnur</td>
+          <td>Web Development</td>
+          <td>95</td>
+        </tr>
+        <tr>
+          <td>Databases</td>
+          <td>88</td>
+        </tr>
+        <tr class="highlight-row">
+          <td>Aidana Serikova</td>
+          <td>Mathematics</td>
+          <td>91</td>
+        </tr>
+        <tr>
+          <td>Daniyar Omarov</td>
+          <td>Physics</td>
+          <td>76</td>
+        </tr>
+        <tr>
+          <td colspan="2">Average grade</td>
+          <td>87.5</td>
+        </tr>
+      </table>
+
+      <h2 class="form-heading">Feedback Form</h2>
+
+      <form id="feedback-form" action="#">
+        <label for="name">Full name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+        />
+
+        <label for="email">Email address</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="example@mail.com"
+        />
+
+        <label for="role">Your role</label>
+        <select id="role" name="role">
+          <option value="student">Student</option>
+          <option value="teacher">Teacher</option>
+          <option value="other">Other</option>
+        </select>
+
+        <p class="question">Did you find this website useful?</p>
+        <div class="radio-group">
+          <input type="radio" id="yes" name="useful" value="yes" />
+          <label class="radio-label" for="yes">Yes</label>
+
+          <input type="radio" id="no" name="useful" value="no" />
+          <label class="radio-label" for="no">No</label>
+        </div>
+
+        <label for="comments">Comments</label>
+        <textarea
+          id="comments"
+          name="comments"
+          rows="5"
+          placeholder="Write your comments here"
+        ></textarea>
+
+        <button class="submit-btn" type="submit">Send feedback</button>
+      </form>
+    </div>
+
+    <div class="footer">
+      <p>&copy; 2026 Kulan Alnur. Astana IT University.</p>
+    </div>
+  </body>
+</html>

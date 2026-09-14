@@ -1,0 +1,174 @@
+body {
+  background-color: #f5f0e8;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 15px;
+  color: #3b3b3b;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: Georgia, serif;
+  font-size: 23px;
+  color: #8a4b2a;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+#page-title {
+  font-family: Georgia, serif;
+  font-size: 38px;
+  color: #ffffff;
+  margin: 0;
+  padding-bottom: 6px;
+}
+
+.navbar {
+  background-color: #3b2b20;
+  padding: 12px;
+  text-align: center;
+}
+
+.nav-link {
+  display: inline-block;
+  color: #e8dccb;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 6px 10px;
+}
+
+.nav-link:hover {
+  background-color: #8a4b2a;
+  color: #ffffff;
+}
+
+.header {
+  background-color: #8a4b2a;
+  color: #ffffff;
+  padding: 35px 20px;
+  text-align: center;
+}
+
+.subtitle {
+  color: #f0e2d0;
+  font-size: 15px;
+  margin: 0;
+}
+
+.content {
+  max-width: 780px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 2px solid #ddd0bd;
+  padding: 22px;
+  margin-bottom: 18px;
+}
+
+.profile-card {
+  text-align: center;
+}
+
+.avatar {
+  max-width: 170px;
+  width: 100%;
+  border-radius: 12px;
+  border: 3px solid #8a4b2a;
+  margin-bottom: 12px;
+}
+
+.profile-name {
+  margin-bottom: 4px;
+}
+
+.profile-group {
+  color: #7a6a5c;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.profile-about {
+  max-width: 440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.goals li {
+  margin-bottom: 7px;
+}
+
+.hobbies {
+  list-style-type: square;
+}
+
+.hobbies li {
+  margin-bottom: 7px;
+}
+
+.links {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.links li {
+  margin-bottom: 7px;
+}
+
+.links a {
+  color: #8a4b2a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.links a:hover {
+  color: #3b2b20;
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: #3b2b20;
+  color: #e8dccb;
+  text-align: center;
+  padding: 18px;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 13px;
+}
+
+@media (max-width: 600px) {
+  #page-title {
+    font-size: 26px;
+  }
+
+  .nav-link {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .card {
+    padding: 14px;
+  }
+}
+
+.nav-active {
+  background-color: #8a4b2a;
+  color: #ffffff;
+}

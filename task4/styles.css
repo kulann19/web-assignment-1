@@ -1,0 +1,187 @@
+body {
+  background-color: #eef2ec;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 15px;
+  color: #33413a;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #23352c;
+  padding: 12px;
+  text-align: center;
+}
+
+.nav-link {
+  display: inline-block;
+  color: #d7e3da;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 6px;
+  margin-right: 6px;
+  padding: 6px 12px;
+}
+
+.nav-link:hover {
+  background-color: #3f7d5c;
+  color: #ffffff;
+}
+
+.nav-active {
+  background-color: #3f7d5c;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 15px;
+}
+
+#page-heading {
+  font-family: Georgia, serif;
+  font-size: 32px;
+  color: #23352c;
+  text-align: center;
+  border-bottom: 3px solid #3f7d5c;
+  padding-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.grades-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 45px;
+  background-color: #ffffff;
+}
+
+.grades-table th {
+  background-color: #3f7d5c;
+  color: #ffffff;
+  border: 1px solid #23352c;
+  padding: 12px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.grades-table td {
+  border: 1px solid #b9cbc0;
+  padding: 10px;
+  text-align: center;
+}
+
+.grades-table tr:nth-child(even) {
+  background-color: #e4ece6;
+}
+
+.highlight-row {
+  background-color: #f7e2b5;
+  font-weight: bold;
+}
+
+.form-heading {
+  font-family: Georgia, serif;
+  font-size: 26px;
+  color: #23352c;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+#feedback-form {
+  width: 420px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  border: 2px solid #c4d6ca;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+#feedback-form label {
+  display: block;
+  font-weight: bold;
+  color: #23352c;
+  margin-bottom: 5px;
+}
+
+#feedback-form input[type="text"],
+#feedback-form input[type="email"],
+#feedback-form select,
+#feedback-form textarea {
+  width: 100%;
+  padding: 9px;
+  border: 1px solid #b9cbc0;
+  border-radius: 5px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.question {
+  font-weight: bold;
+  color: #23352c;
+  margin-bottom: 6px;
+}
+
+.radio-group {
+  margin-bottom: 16px;
+}
+
+.radio-label {
+  display: inline;
+  font-weight: normal;
+  margin-right: 18px;
+}
+
+.submit-btn {
+  display: block;
+  width: 100%;
+  background-color: #3f7d5c;
+  color: #ffffff;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #23352c;
+}
+
+.footer {
+  background-color: #23352c;
+  color: #d7e3da;
+  text-align: center;
+  padding: 18px;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 13px;
+}
+
+@media (max-width: 600px) {
+  #page-heading {
+    font-size: 24px;
+  }
+
+  .nav-link {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .grades-table th,
+  .grades-table td {
+    padding: 7px;
+    font-size: 13px;
+  }
+}
